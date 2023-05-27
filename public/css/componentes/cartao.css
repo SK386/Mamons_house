@@ -1,0 +1,17 @@
+.cartao {
+    background-color: var(--cor-contraste-claro);
+    border-radius: 10px;
+    box-shadow: var(--sombra);
+    width: 100%;
+    max-width: 40rem;
+    height: 350px;
+    padding: 1.75rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: 10rem;
+}
+
+.cartao__titulo {
+    font-size: var(--fonte-tamanho-cartao-titulo);
+    margin-bottom: 1rem;
+}

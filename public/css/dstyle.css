@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Latod&display=swap');
+@media screen and (min-width:820px){
+    *{
+      margin: 0;
+      padding: 0;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+    
+    a{
+      text-decoration: none;
+      color: aliceblue;
+    }
+    
+    ul{
+      list-style: none;
+      display: flex;
+    }
+    /* navbar customization */
+    .space__items{
+      margin: 0 2.5px;
+    }
+    #nav__logo{
+      font-size: 2em;
+      font-family: 'Lato', sans-serif !important;
+      font-weight: 700;
+      font-style:italic;
+      margin:0 40px;
+    }
+    #nav__logo img{
+	max-width:2.5rem;
+    } 
+    nav{
+      background-color:#978225;
+      width: 100%;
+      height: 8vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color:#FFCC33;
+      align-items: center;
+      position: fixed;
+      font-family: "Poppins";
+      z-index: 50;
+      overflow:hidden;
+    }
+
+    .nav__link--underline{
+      background: linear-gradient(currentColor 0 0) 
+      bottom left/
+      var(--underline-width, 0%) 0.1em
+      no-repeat; 
+      display: inline-block;
+      padding: 0 .5em 0.2em;
+      text-decoration: none;
+      transition: background-size 0.5s;
+    }
+    .nav__link--underline:hover{
+      --underline-width: 90%;
+    }
+
+    #nav__link--signup{
+      color:rgb(176, 154, 107);;
+      border: 2px solid rgb(176, 154, 107);
+      padding:0 10px;
+      border-radius:6px;
+    }
+
+    #nav__link--signup:hover{
+      color:white;
+      border: 2px solid rgb(176, 154, 107);
+      background-color: rgb(176, 154, 107);
+      transition: 0.5s;
+    }
+
+    /* footer cutomization */
+    footer{
+      width: 100%;
+      height: 12vh;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: static;
+      font-family: "Poppins";
+      z-index: 50;
+      bottom: 0;
+      background-color: #010d18;
+      color: aliceblue;
+    }
+
+    /*background section*/
+    .section__structure{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height:100vh !important;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      text-align: center;
+      text-transform:UPPERCASE;
+    }
+    #section__01{
+	    background-image:url("../images/pexels-backgroud01.jpg");
+    }
+
+   #section__02{
+	    background-image:url("../images/pexels-dash-cryptocurrency-7806343.jpg");
+    }
+
+    .section__text{
+      max-width: 700px;
+      right: 0;
+      position: absolute;
+      margin-right: 1.5vw;
+    }
+
+    .section__title{
+      color:white;
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-family: "Poppins";
+      font-weight: 900;
+   }
+
+    .section__paragraph{
+      color:white;
+      text-align: justify;
+    }
+
+    .text__container{
+	    width:100%;
+	    background-color:#E2DFC2;
+	    color:black; 
+    }
