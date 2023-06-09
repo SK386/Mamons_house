@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Latod&display=swap');
+@import url('variables.css');
+@media screen and (min-width:820px){
+    *{
+      margin: 0;
+      padding: 0;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+    
+    a{
+      text-decoration: none;
+      color: aliceblue;
+    }
+    
+    ul{
+      list-style: none;
+      display: flex;
+    }
+    /*background section*/
+    .section__structure{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height:100vh !important;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      text-align: center;
+      text-transform:UPPERCASE;
+    }
+    #section__01{
+	    background-image:url("/images/pexels-backgroud01.jpg");
+    }
+
+   #section__02{
+	    background-image:url("/images/pexels-dash-cryptocurrency-7806343.jpg");
+    }
+
+    .section__text{
+      max-width: 700px;
+      right: 0;
+      position: absolute;
+      margin-right: 1.5vw;
+    }
+
+    .section__title{
+      color:white;
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-family: "Poppins";
+      font-weight: 900;
+   }
+
+    .section__paragraph{
+      color:white;
+      text-align: justify;
+    }
+
+    .section__divider--main-color{
+	background-color:var(--main-color);
+	width:100%;
+	height:20vh;
+    }
+    .section__divider--secundary-color{
+	background-image:var(--secundary-color);
+	width:100%;
+	height:20vh;
+    }
+    .text__container{
+	    width:100%;
+	    background-color:#E2DFC2;
+	    color:black; 
+    }
+
+ 
