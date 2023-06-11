@@ -2,22 +2,22 @@
 <html lang="en">
     <head>
 
-	<title>Wasp - the door house</title>
+	<title><%= title %></title>
 	<%-include("partials/hsession.html")%>
 	<style>
 		a{
-			color:white;
+			color:var(--second-color);
 		}
 		a:hover{
-			color:#58575B;
+			color:var(--second-color-hover);
 		}
 		.btn-purpledark:hover{
-			background-color:#58575B;
-			border-color:#58575B;
+			background-color:var(--second-color-hover);
+			border-color:var(--second-color-hover);
 		}
 	</style>
     </head>
-    <body style="background-image:url('/imagens/login.jpg'); background-repeat:no-repeat; background-size:cover;">
+    <body class="bg-structure" id="bg-image-login">
         <div id="layoutAuthentication">
             <div id="layoutAuthentication_content">
                 <main>
@@ -66,7 +66,7 @@
                                         </form>
                                     </div>
                                     <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="/login">Já possui uma conta?</a></div>
+                                        <div class="small"><a href="/signin">Já possui uma conta?</a></div>
                                     </div>
                                 </div>
                             </div>

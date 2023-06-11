@@ -1595,7 +1595,7 @@ html {
     min-width: 0;
 }
 .btn-purpledark {
-    background-color: #453960;
+    background-color:var(--second-color);
 }
 .btn-greydark {
     background-color: #3d3c3f;
@@ -1626,8 +1626,11 @@ input[type="text"].bg-greydark {
 /*mamon house */
 .bg-structure{
   background-size: cover;
-  background-repeat: no-repeat;s
+  background-repeat: no-repeat;
 }
 #bg-image-login{
   background-image:url("/images/pexels-ngoc-vuong-2880607.jpg");
+}
+#bg-image-register{
+  background-image:url("/images/pexels-naim-benjelloun-3894215.jpg");
 }
